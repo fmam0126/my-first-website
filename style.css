@@ -1,0 +1,26 @@
+header{
+    background-color: rgb(44, 224, 194);
+    width: 100vw;
+}
+#Homebutton{
+    color: inherit;
+    text-decoration: none;
+}
+#grey-kitten{
+    height: 300px;
+}
+#orange-cat{
+    height: 250px;
+}
+img{
+    border-radius: 20px 50px 100px 2px;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+footer{
+    min-height: 50px;
+}
