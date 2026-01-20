@@ -12,10 +12,30 @@ header{
 #orange-cat{
     height: 250px;
 }
+.button-to-cats{
+    color: white;
+    padding: 15 px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+
+}
+.button-to-cats:hover{
+    background-color: blue;
+}
 img{
     border-radius: 20px;
     border: 3px solid black;
+    margin: 10px;
+
 }
+
 body{
     min-height: 100vh;
     margin: 0;
@@ -24,4 +44,5 @@ body{
 }
 footer{
     min-height: 50px;
+    background-color: rgb(44, 224, 194);
 }

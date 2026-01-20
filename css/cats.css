@@ -18,13 +18,55 @@ header{
 img{
     border-radius: 20px;
     border: 3px solid black;
+    margin: 10px;
 }
 body{
     min-height: 100vh;
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-attachment: fixed;
+}
+#figure-very-cool-orange-cat{
+    background-color: rgb(184, 233, 236);
+    width: fit-content;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+#figure-very-cute-kitten{
+    background-color: rgb(184, 233, 236);
+    width: fit-content;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+#figure-sunglasses-cat{
+    background-color: rgb(184, 233, 236);
+    width: fit-content;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    flex-grow: ;
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
 }
 footer{
     min-height: 50px;
+    background-color: rgb(44, 224, 194);
 }
