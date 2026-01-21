@@ -8,9 +8,25 @@ header{
 }
 #grey-kitten{
     height: 300px;
+    background-color: rgb(184, 233, 236);
+    width: fit-content;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
 }
 #orange-cat{
     height: 250px;
+    background-color: rgb(184, 233, 236);
+    width: fit-content;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
 }
 .button-to-cats{
     color: white;
@@ -34,6 +50,13 @@ img{
     border: 3px solid black;
     margin: 10px;
 
+}
+#main-cat-pictures{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 body{

@@ -58,13 +58,14 @@ body{
     border-radius: 20px;
     background-clip: padding-box;
 }
-main{
+#main-cat-pictures{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     margin-bottom: 20px;
 }
+
 footer{
     min-height: 50px;
     background-color: rgb(44, 224, 194);
