@@ -5,6 +5,7 @@ header{
 #Homebutton{
     color: inherit;
     text-decoration: none;
+    margin: 10px;
 }
 #orange-cat{
     height: 400px;
@@ -69,4 +70,4 @@ body{
 footer{
     min-height: 50px;
     background-color: rgb(44, 224, 194);
-}
+}   
